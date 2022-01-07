@@ -1,5 +1,4 @@
 const route = require('express').Router()
-const { createNoSubstitutionTemplateLiteral } = require('typescript');
 const { createUser, loginUser } = require('../controllers/users');
 
 // HTTP Method /api/users/*
